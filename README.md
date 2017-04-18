@@ -4,3 +4,11 @@ A flight controller board for the mini Talon UAV based on a [STM32 Nucleo-32](ht
 
 Firmware availiable at [https://github.com/ToolboxBodensee/FlightController](https://github.com/ToolboxBodensee/FlightController).
 
+## PCB
+![PCB](/doc/images/both.png?raw=true)
+
+### Top layer
+![Top PCB side](/doc/images/top.png?raw=true)
+
+### Bottom Layer
+![Bottom PCB side](/doc/images/bottom.png?raw=true)
