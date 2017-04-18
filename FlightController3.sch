@@ -5441,10 +5441,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pad name="8" x="1.27" y="8.89" drill="0.9" shape="octagon"/>
 <pad name="9" x="-1.27" y="8.89" drill="0.9" shape="octagon"/>
 <pad name="10" x="-3.81" y="8.89" drill="0.9" shape="octagon"/>
-<hole x="-10.795" y="7.62" drill="2.2"/>
-<hole x="10.795" y="7.62" drill="2.2"/>
-<hole x="10.795" y="-7.62" drill="2.2"/>
-<hole x="-10.795" y="-7.62" drill="2.2"/>
 <text x="0" y="5.08" size="1.4224" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="-5.08" size="1.4224" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-13.335" y1="8.255" x2="-13.335" y2="-8.255" width="0.127" layer="21"/>
