@@ -42087,10 +42087,10 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="C1" library="pinhead" deviceset="PINHD-1X3" device="" value="MOTOR"/>
-<part name="C2" library="pinhead" deviceset="PINHD-1X3" device="" value="AILERON_L"/>
-<part name="C5" library="pinhead" deviceset="PINHD-1X3" device="" value="AILERON_R"/>
-<part name="C3" library="pinhead" deviceset="PINHD-1X3" device="" value="V_TAIL_L"/>
-<part name="C4" library="pinhead" deviceset="PINHD-1X3" device="" value="V_TAIL_R"/>
+<part name="C2" library="pinhead" deviceset="PINHD-1X3" device="" value="AILERON L"/>
+<part name="C5" library="pinhead" deviceset="PINHD-1X3" device="" value="AILERON R"/>
+<part name="C3" library="pinhead" deviceset="PINHD-1X3" device="" value="V-TAIL L"/>
+<part name="C4" library="pinhead" deviceset="PINHD-1X3" device="" value="V-TAIL R"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="C6" library="pinhead" deviceset="PINHD-1X3" device="" value="SBUS"/>
@@ -42106,7 +42106,7 @@ Source: www.kingbright.com</description>
 <part name="R2" library="resistor" deviceset="R-EU_" device="R0603" value="4K7"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="INS1" library="1_Robo-Lib" deviceset="BNO055-BREAKOUT" device=""/>
+<part name="INS1" library="1_Robo-Lib" deviceset="BNO055-BREAKOUT" device="" value="BNO055"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="MF1" library="BSN20_215" deviceset="BSN20,215" device=""/>
 <part name="MF2" library="BSN20_215" deviceset="BSN20,215" device=""/>
@@ -42127,17 +42127,17 @@ Source: www.kingbright.com</description>
 <part name="C12" library="pinhead" deviceset="PINHD-1X4" device="" value="SONAR"/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="C13" library="pinhead" deviceset="PINHD-1X4" device=""/>
-<part name="C14" library="pinhead" deviceset="PINHD-1X4" device=""/>
+<part name="C13" library="pinhead" deviceset="PINHD-1X4" device="" value="I2C"/>
+<part name="C14" library="pinhead" deviceset="PINHD-1X4" device="" value="I2C"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="FRAME3" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="FRAME4" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="U$1" library="toolbox" deviceset="TOOLBOX_LOGO" device=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X2" device="" value="RESET"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="SML0603"/>
-<part name="LED2" library="led" deviceset="LED" device="SML0603"/>
+<part name="LED1" library="led" deviceset="LED" device="SML0603" value="5V"/>
+<part name="LED2" library="led" deviceset="LED" device="SML0603" value="3V3"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="R7" library="resistor" deviceset="R-EU_" device="M1206" value="110"/>
@@ -42156,7 +42156,7 @@ Source: www.kingbright.com</description>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="S1" library="switch-omron" deviceset="10-XX" device=""/>
+<part name="S1" library="switch-omron" deviceset="10-XX" device="" value="RESET"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="toolbox" deviceset="TOOLBOX_LOGO" device=""/>
 </parts>
