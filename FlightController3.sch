@@ -7942,8 +7942,8 @@ handy for I2C voltage shifter</description>
 </packages>
 <symbols>
 <symbol name="NUCLEO">
-<pin name="D0/SCL1/TX1" x="-17.78" y="30.48" length="middle"/>
-<pin name="D1/SDA1/RX1" x="-17.78" y="25.4" length="middle"/>
+<pin name="D0/SCL1/RX1" x="-17.78" y="30.48" length="middle"/>
+<pin name="D1/SDA1/TX1" x="-17.78" y="25.4" length="middle"/>
 <pin name="D2" x="-17.78" y="20.32" length="middle"/>
 <pin name="D3" x="-17.78" y="15.24" length="middle"/>
 <pin name="D4/SDA1/RX1" x="-17.78" y="10.16" length="middle"/>
@@ -7996,8 +7996,8 @@ handy for I2C voltage shifter</description>
 <connect gate="G$1" pin="A6/SCL3" pad="A6"/>
 <connect gate="G$1" pin="A7/TX2" pad="A7"/>
 <connect gate="G$1" pin="AREF" pad="AREF"/>
-<connect gate="G$1" pin="D0/SCL1/TX1" pad="D0"/>
-<connect gate="G$1" pin="D1/SDA1/RX1" pad="D1"/>
+<connect gate="G$1" pin="D0/SCL1/RX1" pad="D0"/>
+<connect gate="G$1" pin="D1/SDA1/TX1" pad="D1"/>
 <connect gate="G$1" pin="D10" pad="D10"/>
 <connect gate="G$1" pin="D11" pad="D11"/>
 <connect gate="G$1" pin="D12/SDA3" pad="D12"/>
@@ -42372,9 +42372,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="!SBUS" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="D1/SDA1/RX1"/>
-<wire x1="111.76" y1="132.08" x2="106.68" y2="132.08" width="0.1524" layer="91"/>
-<label x="106.68" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="106.68" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="D0/SCL1/RX1"/>
+<wire x1="106.68" y1="137.16" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
