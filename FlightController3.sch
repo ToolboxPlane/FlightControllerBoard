@@ -31253,8 +31253,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="U$2" library="toolbox" deviceset="TOOLBOX_LOGO" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-2X8" device="" value="EXPANSION PORT"/>
 <part name="U$1" library="toolbox" deviceset="TOOLBOX_LOGO" device=""/>
-<part name="LED_NAV_TX" library="led" deviceset="LED" device="SML0603"/>
-<part name="LED_NAV_RX" library="led" deviceset="LED" device="SML0603"/>
+<part name="NAV_TX" library="led" deviceset="LED" device="SML0603"/>
+<part name="NAV_RX" library="led" deviceset="LED" device="SML0603"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="M1206" value="110"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="M1206" value="110"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="M1206" value="110"/>
@@ -31595,18 +31595,18 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="JP1" gate="G$1" x="58.42" y="81.28" rot="R270"/>
 <instance part="GND8" gate="1" x="58.42" y="73.66"/>
 <instance part="JP2" gate="A" x="116.84" y="83.82"/>
-<instance part="LED_NAV_TX" gate="G$1" x="20.32" y="33.02"/>
-<instance part="LED_NAV_RX" gate="G$1" x="30.48" y="33.02"/>
-<instance part="R9" gate="G$1" x="20.32" y="48.26" rot="R90"/>
-<instance part="R10" gate="G$1" x="30.48" y="48.26" rot="R90"/>
-<instance part="R11" gate="G$1" x="55.88" y="48.26" rot="R90"/>
-<instance part="LED_SBUS" gate="G$1" x="55.88" y="33.02"/>
-<instance part="R12" gate="G$1" x="81.28" y="48.26" rot="R90"/>
-<instance part="P+16" gate="1" x="81.28" y="58.42"/>
-<instance part="LED_SCL" gate="G$1" x="81.28" y="33.02"/>
-<instance part="+3V4" gate="G$1" x="20.32" y="60.96"/>
-<instance part="+3V6" gate="G$1" x="30.48" y="60.96"/>
-<instance part="+3V7" gate="G$1" x="55.88" y="60.96"/>
+<instance part="NAV_TX" gate="G$1" x="20.32" y="40.64"/>
+<instance part="NAV_RX" gate="G$1" x="30.48" y="40.64"/>
+<instance part="R9" gate="G$1" x="20.32" y="55.88" rot="R90"/>
+<instance part="R10" gate="G$1" x="30.48" y="55.88" rot="R90"/>
+<instance part="R11" gate="G$1" x="55.88" y="55.88" rot="R90"/>
+<instance part="LED_SBUS" gate="G$1" x="55.88" y="40.64"/>
+<instance part="R12" gate="G$1" x="81.28" y="55.88" rot="R90"/>
+<instance part="P+16" gate="1" x="81.28" y="66.04"/>
+<instance part="LED_SCL" gate="G$1" x="81.28" y="40.64"/>
+<instance part="+3V4" gate="G$1" x="20.32" y="66.04"/>
+<instance part="+3V6" gate="G$1" x="30.48" y="66.04"/>
+<instance part="+3V7" gate="G$1" x="55.88" y="66.04"/>
 </instances>
 <busses>
 </busses>
@@ -31651,7 +31651,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="P+16" gate="1" pin="+5V"/>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="55.88" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="63.5" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -31752,9 +31752,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="27.94" y="91.44" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="LED_NAV_TX" gate="G$1" pin="C"/>
-<wire x1="20.32" y1="27.94" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
-<label x="20.32" y="22.86" size="1.778" layer="95" rot="R270"/>
+<pinref part="NAV_TX" gate="G$1" pin="C"/>
+<wire x1="20.32" y1="35.56" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
+<label x="20.32" y="33.02" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="NAVBOARD_RX" class="0">
@@ -31764,9 +31764,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="25.4" y="91.44" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="LED_NAV_RX" gate="G$1" pin="C"/>
-<wire x1="30.48" y1="27.94" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
-<label x="30.48" y="22.86" size="1.778" layer="95" rot="R270"/>
+<pinref part="NAV_RX" gate="G$1" pin="C"/>
+<wire x1="30.48" y1="35.56" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
+<label x="30.48" y="33.02" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="SDA5V" class="0">
@@ -31794,8 +31794,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 <segment>
 <pinref part="LED_SCL" gate="G$1" pin="C"/>
-<wire x1="81.28" y1="27.94" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
-<label x="81.28" y="22.86" size="1.778" layer="95" rot="R270"/>
+<wire x1="81.28" y1="35.56" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
+<label x="81.28" y="33.02" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="!RST" class="0">
@@ -31861,17 +31861,17 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<wire x1="20.32" y1="58.42" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="63.5" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
-<wire x1="30.48" y1="58.42" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="63.5" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
-<wire x1="55.88" y1="58.42" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="63.5" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -31904,37 +31904,37 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="LED_NAV_TX" gate="G$1" pin="A"/>
+<pinref part="NAV_TX" gate="G$1" pin="A"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="35.56" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="43.18" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="LED_NAV_RX" gate="G$1" pin="A"/>
-<wire x1="30.48" y1="43.18" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="NAV_RX" gate="G$1" pin="A"/>
+<wire x1="30.48" y1="50.8" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="LED_SBUS" gate="G$1" pin="A"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="35.56" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="43.18" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!SBUS" class="0">
 <segment>
 <pinref part="LED_SBUS" gate="G$1" pin="C"/>
-<wire x1="55.88" y1="27.94" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
-<label x="55.88" y="22.86" size="1.778" layer="95" rot="R270"/>
+<wire x1="55.88" y1="35.56" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<label x="55.88" y="33.02" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="LED_SCL" gate="G$1" pin="A"/>
-<wire x1="81.28" y1="43.18" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="50.8" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
