@@ -31449,7 +31449,40 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="U1" library="NUCLEO" deviceset="NUCLEO_L432KC" device=""/>
+<part name="U1" library="NUCLEO" deviceset="NUCLEO_L432KC" device="">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="no">
+<pinmap gate="G$1" pin="D3" pinorder="4"/>
+<pinmap gate="G$1" pin="A3" pinorder="16"/>
+<pinmap gate="G$1" pin="D6" pinorder="7"/>
+<pinmap gate="G$1" pin="D12/SDA3" pinorder="11"/>
+<pinmap gate="G$1" pin="VIN" pinorder="21"/>
+<pinmap gate="G$1" pin="A5" pinorder="18"/>
+<pinmap gate="G$1" pin="A6/SCL3" pinorder="19"/>
+<pinmap gate="G$1" pin="!RST" pinorder="26"/>
+<pinmap gate="G$1" pin="A1" pinorder="14"/>
+<pinmap gate="G$1" pin="D0/SCL1/RX1" pinorder="1"/>
+<pinmap gate="G$1" pin="D2" pinorder="3"/>
+<pinmap gate="G$1" pin="GND" pinorder="22"/>
+<pinmap gate="G$1" pin="A4" pinorder="17"/>
+<pinmap gate="G$1" pin="D13" pinorder="12"/>
+<pinmap gate="G$1" pin="+5V" pinorder="23"/>
+<pinmap gate="G$1" pin="D1/SDA1/TX1" pinorder="2"/>
+<pinmap gate="G$1" pin="A0" pinorder="13"/>
+<pinmap gate="G$1" pin="+3V3" pinorder="24"/>
+<pinmap gate="G$1" pin="D4/SDA1/RX1" pinorder="5"/>
+<pinmap gate="G$1" pin="A2/RX2" pinorder="15"/>
+<pinmap gate="G$1" pin="D5/SCL1/TX1" pinorder="6"/>
+<pinmap gate="G$1" pin="A7/TX2" pinorder="20"/>
+<pinmap gate="G$1" pin="D10" pinorder="9"/>
+<pinmap gate="G$1" pin="D9" pinorder="8"/>
+<pinmap gate="G$1" pin="AREF" pinorder="25"/>
+<pinmap gate="G$1" pin="D11" pinorder="10"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEMODEL" value="NUCLEO"/>
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U$4" library="MPL3115A2" deviceset="MPL3115A2" device=""/>
