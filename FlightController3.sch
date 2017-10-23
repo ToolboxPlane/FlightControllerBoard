@@ -31466,12 +31466,46 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" value="RESET"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" value="5V"/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" value="3V3"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" value="5V">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="no">
+<pinmap gate="G$1" pin="A" pinorder="1"/>
+<pinmap gate="G$1" pin="C" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEMODEL" value="SMLD12U8W"/>
+<attribute name="SPICEPREFIX" value="D"/>
+</part>
+<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" value="3V3">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="no">
+<pinmap gate="G$1" pin="A" pinorder="1"/>
+<pinmap gate="G$1" pin="C" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEMODEL" value="SMLD12U8W"/>
+<attribute name="SPICEPREFIX" value="D"/>
+</part>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" value="110"/>
-<part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" value="150"/>
+<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" value="110">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="yes">
+<pinmap gate="G$1" pin="2" pinorder="1"/>
+<pinmap gate="G$1" pin="1" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEPREFIX" value="R"/>
+</part>
+<part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" value="150">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="yes">
+<pinmap gate="G$1" pin="2" pinorder="1"/>
+<pinmap gate="G$1" pin="1" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEPREFIX" value="R"/>
+</part>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C1206" value="100nF"/>
