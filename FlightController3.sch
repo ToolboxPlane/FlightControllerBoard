@@ -31390,13 +31390,63 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="INS1" library="1_Robo-Lib" deviceset="BNO055-BREAKOUT" device="" value="BNO055"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="MF1" library="BSN20_215" deviceset="BSN20,215" device="">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="no">
+<pinmap gate="G$1" pin="D" pinorder="1"/>
+<pinmap gate="G$1" pin="S" pinorder="3"/>
+<pinmap gate="G$1" pin="G" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEMODEL" value="BSN20"/>
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
-<part name="MF2" library="BSN20_215" deviceset="BSN20,215" device=""/>
-<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" value="4K7"/>
-<part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" value="4K7"/>
-<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" value="4K7"/>
-<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" value="4K7"/>
+<part name="MF2" library="BSN20_215" deviceset="BSN20,215" device="">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="no">
+<pinmap gate="G$1" pin="D" pinorder="1"/>
+<pinmap gate="G$1" pin="S" pinorder="3"/>
+<pinmap gate="G$1" pin="G" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEMODEL" value="BSN20"/>
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
+<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" value="4K7">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="yes">
+<pinmap gate="G$1" pin="2" pinorder="1"/>
+<pinmap gate="G$1" pin="1" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEPREFIX" value="R"/>
+</part>
+<part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" value="4K7">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="yes">
+<pinmap gate="G$1" pin="2" pinorder="1"/>
+<pinmap gate="G$1" pin="1" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEPREFIX" value="R"/>
+</part>
+<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" value="4K7">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="yes">
+<pinmap gate="G$1" pin="2" pinorder="1"/>
+<pinmap gate="G$1" pin="1" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEPREFIX" value="R"/>
+</part>
+<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" value="4K7">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="yes">
+<pinmap gate="G$1" pin="2" pinorder="1"/>
+<pinmap gate="G$1" pin="1" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEPREFIX" value="R"/>
+</part>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U1" library="NUCLEO" deviceset="NUCLEO_L432KC" device=""/>
