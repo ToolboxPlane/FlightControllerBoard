@@ -1,0 +1,6 @@
+**********************
+* Autodesk EAGLE - SPICE Model File
+* Author:
+* Date: 
+**********************
+.MODEL BC171B NPN(BF=180 CJC=4.5pf CJE=10pf IS=15E-9)
