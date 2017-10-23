@@ -31603,7 +31603,19 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device=""/>
-<part name="U$3" library="JonasLib" deviceset="AT24C16C" device=""/>
+<part name="U$3" library="JonasLib" deviceset="AT24C16C" device="">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="no">
+<pinmap gate="G$1" pin="SDA" pinorder="2"/>
+<pinmap gate="G$1" pin="VCC" pinorder="4"/>
+<pinmap gate="G$1" pin="SCL" pinorder="3"/>
+<pinmap gate="G$1" pin="WP" pinorder="1"/>
+<pinmap gate="G$1" pin="GND" pinorder="5"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEMODEL" value="AT24C16C"/>
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>

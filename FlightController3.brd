@@ -4782,7 +4782,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="14.7" y="2.81" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ_2" value="" x="17.145" y="43.18"/>
-<element name="U$3" library="JonasLib" package="DIL08" value="AT24C16C" x="31.115" y="15.24" rot="R270"/>
+<element name="U$3" library="JonasLib" package="DIL08" value="AT24C16C" x="31.115" y="15.24" rot="R270">
+<attribute name="SPICEMODEL" value="AT24C16C" x="31.115" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="X" x="31.115" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" airwireshidden="yes">
