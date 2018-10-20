@@ -1,7 +1,0 @@
-**********************
-* Autodesk EAGLE - SPICE Model File
-* Author: Jonas Otto
-* Date: 2017-10-23
-**********************
-.SUBCKT AT24C16C WP SDA SCL VCC GND
-.ENDS AT24C16C
