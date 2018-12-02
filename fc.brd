@@ -5034,19 +5034,20 @@ design rules under a new name.</description>
 <wire x1="53" y1="9.55" x2="53.3" y2="9.55" width="0.508" layer="1"/>
 <wire x1="53.3" y1="9.55" x2="53.8" y2="9.55" width="0.508" layer="1"/>
 <wire x1="50.6" y1="7.705" x2="50.6" y2="9.55" width="0.508" layer="1"/>
-<wire x1="52.825" y1="15.975" x2="54" y2="15.975" width="0.1524" layer="1"/>
-<via x="54" y="15.975" extent="1-16" drill="0.2"/>
 <wire x1="53.8" y1="9.55" x2="53.8" y2="9.6" width="0.1524" layer="1"/>
 <via x="53" y="10.4" extent="1-16" drill="0.2"/>
 <wire x1="53" y1="10.4" x2="53" y2="14" width="0.1524" layer="16"/>
-<wire x1="54" y1="15" x2="54" y2="15.975" width="0.1524" layer="16"/>
-<wire x1="53" y1="14" x2="54" y2="15" width="0.1524" layer="16"/>
+<wire x1="54" y1="15" x2="53" y2="14" width="0.1524" layer="16"/>
 <wire x1="53" y1="10.4" x2="53" y2="9.9" width="0.1524" layer="1"/>
 <wire x1="53" y1="9.9" x2="53" y2="9.55" width="0.1524" layer="1"/>
 <wire x1="53" y1="9.9" x2="52.65" y2="9.55" width="0.1524" layer="1"/>
 <wire x1="52.65" y1="9.55" x2="52.6" y2="9.55" width="0.1524" layer="1"/>
 <wire x1="53" y1="9.9" x2="53.3" y2="9.6" width="0.1524" layer="1"/>
 <wire x1="53.3" y1="9.6" x2="53.3" y2="9.55" width="0.1524" layer="1"/>
+<wire x1="52.825" y1="15.975" x2="53.625" y2="15.975" width="0.1524" layer="1"/>
+<wire x1="53.625" y1="15.975" x2="54" y2="15.6" width="0.1524" layer="1"/>
+<via x="54" y="15.6" extent="1-16" drill="0.2"/>
+<wire x1="54" y1="15.6" x2="54" y2="15" width="0.1524" layer="16"/>
 </signal>
 <signal name="VCCIO">
 <contactref element="U4" pad="8"/>
@@ -5082,8 +5083,7 @@ design rules under a new name.</description>
 <wire x1="49.295" y1="21.482" x2="49.4" y2="21.377" width="0.1524" layer="1"/>
 <wire x1="49.295" y1="21.482" x2="49.295" y2="21.472" width="0.1524" layer="1"/>
 <wire x1="49.295" y1="21.472" x2="49.2" y2="21.377" width="0.1524" layer="1"/>
-<wire x1="49.375" y1="18.025" x2="49.375" y2="20.525" width="0.1524" layer="16"/>
-<wire x1="49.375" y1="20.525" x2="49.3" y2="20.6" width="0.1524" layer="16"/>
+<wire x1="49.375" y1="18.025" x2="49.375" y2="19" width="0.1524" layer="16"/>
 <via x="49.3" y="20.6" extent="1-16" drill="0.2"/>
 <wire x1="49.3" y1="20.6" x2="49.295" y2="20.605" width="0.1524" layer="1"/>
 <wire x1="49.295" y1="20.605" x2="49.295" y2="21.282" width="0.1524" layer="1"/>
@@ -5103,6 +5103,8 @@ design rules under a new name.</description>
 <wire x1="47.4" y1="21.277" x2="47.4" y2="19.07995" width="0.1524" layer="1"/>
 <wire x1="47.4" y1="21.277" x2="47.3" y2="21.377" width="0.1524" layer="1"/>
 <wire x1="47.4" y1="21.277" x2="47.5" y2="21.377" width="0.1524" layer="1"/>
+<wire x1="49.375" y1="19" x2="49.3" y2="19.075" width="0.1524" layer="16"/>
+<wire x1="49.3" y1="19.075" x2="49.3" y2="20.6" width="0.1524" layer="16"/>
 </signal>
 <signal name="GNDIO">
 <contactref element="U4" pad="3"/>
@@ -5121,7 +5123,6 @@ design rules under a new name.</description>
 <contactref element="J1" pad="S2"/>
 <wire x1="50.35" y1="11.5" x2="50.6" y2="11.25" width="0.1524" layer="1"/>
 <wire x1="52.075" y1="18.2258125" x2="52.075" y2="18.025" width="0.1524" layer="1"/>
-<wire x1="53.105" y1="23.4" x2="53.105" y2="22.005" width="0.1524" layer="1"/>
 <contactref element="C22" pad="2"/>
 <wire x1="50.6" y1="11.25" x2="52.2" y2="11.25" width="0.508" layer="1"/>
 <wire x1="52.2" y1="11.25" x2="53.8" y2="11.25" width="0.508" layer="1"/>
