@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name GT-USB-7010)(type KiCad)(uri ${KIPRJMOD}/GT-USB-7010.pretty)(options "")(descr ""))
+  (lib (name LMZM23600)(type KiCad)(uri ${KIPRJMOD}/KicadLibs/LMZM23600.pretty)(options "")(descr ""))
+  (lib (name XT30)(type KiCad)(uri ${KIPRJMOD}/ottojo_KicadLibs/XT30.pretty)(options "")(descr ""))
+)
