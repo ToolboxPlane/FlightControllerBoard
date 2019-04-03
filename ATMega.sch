@@ -620,10 +620,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 5350 4250 5350
 $Comp
-L MCU_Microchip_ATmega:ATmega2560-16AU U2
+L MCU_Microchip_ATmega:ATmega2560-16AU U3
 U 1 1 5C280BF8
 P 3450 3950
-F 0 "U2" H 2850 1150 50  0000 C CNN
+F 0 "U3" H 2850 1150 50  0000 C CNN
 F 1 "ATmega2560-16AU" H 2850 1050 50  0000 C CNN
 F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 3450 3950 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf" H 3450 3950 50  0001 C CNN

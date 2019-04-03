@@ -1,4 +1,2 @@
 (sym_lib_table
-  (lib (name SiliconLabs)(type Legacy)(uri ${KIPRJMOD}/KicadLibs/SiliconLabs.lib)(options "")(descr ""))
-  (lib (name lmzm23600)(type Legacy)(uri ${KIPRJMOD}/KicadLibs/lmzm23600.lib)(options "")(descr ""))
 )
