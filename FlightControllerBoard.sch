@@ -515,7 +515,7 @@ U 1 1 5C99CF59
 P 1150 3700
 F 0 "J1" H 1068 3917 50  0000 C CNN
 F 1 "Conn_01x02" H 1068 3826 50  0000 C CNN
-F 2 "XT30:XT30PB-M" H 1150 3700 50  0001 C CNN
+F 2 "Connector_AMASS:AMASS_XT30UPB-M_1x02_P5.0mm_Vertical" H 1150 3700 50  0001 C CNN
 F 3 "~" H 1150 3700 50  0001 C CNN
 	1    1150 3700
 	-1   0    0    1   
@@ -770,4 +770,48 @@ Wire Wire Line
 	2750 1400 2550 1400
 Wire Wire Line
 	2500 1650 2450 1650
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CA9C4CA
+P 8500 3500
+F 0 "H1" H 8600 3546 50  0000 L CNN
+F 1 "MountingHole" H 8600 3455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8500 3500 50  0001 C CNN
+F 3 "~" H 8500 3500 50  0001 C CNN
+	1    8500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CA9C92B
+P 8500 3750
+F 0 "H2" H 8600 3796 50  0000 L CNN
+F 1 "MountingHole" H 8600 3705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8500 3750 50  0001 C CNN
+F 3 "~" H 8500 3750 50  0001 C CNN
+	1    8500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5CA9CB68
+P 8500 4000
+F 0 "H3" H 8600 4046 50  0000 L CNN
+F 1 "MountingHole" H 8600 3955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8500 4000 50  0001 C CNN
+F 3 "~" H 8500 4000 50  0001 C CNN
+	1    8500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5CA9CE24
+P 8500 4250
+F 0 "H4" H 8600 4296 50  0000 L CNN
+F 1 "MountingHole" H 8600 4205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8500 4250 50  0001 C CNN
+F 3 "~" H 8500 4250 50  0001 C CNN
+	1    8500 4250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
