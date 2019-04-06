@@ -592,7 +592,7 @@ Wire Wire Line
 	4350 3650 4250 3650
 Wire Wire Line
 	4250 3550 4350 3550
-Text HLabel 2600 3350 0    50   Input ~ 0
+Text HLabel 4300 4250 2    50   Input ~ 0
 RX1
 Text HLabel 4300 4350 2    50   Output ~ 0
 TX1

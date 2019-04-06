@@ -319,38 +319,6 @@ F 3 "" H 7050 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW?
-U 1 1 5C994ABC
-P 4850 2750
-AR Path="/5C8FB8FD/5C994ABC" Ref="SW?"  Part="1" 
-AR Path="/5C9128F0/5C994ABC" Ref="SW2"  Part="1" 
-F 0 "SW2" H 4850 3035 50  0000 C CNN
-F 1 "SW_Push" H 4850 2944 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_PTS810" H 4850 2950 50  0001 C CNN
-F 3 "~" H 4850 2950 50  0001 C CNN
-	1    4850 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4650 2750 4600 2750
-Wire Wire Line
-	4600 2750 4600 2800
-$Comp
-L power:GND #PWR?
-U 1 1 5C994AC5
-P 4600 2800
-AR Path="/5C8FB8FD/5C994AC5" Ref="#PWR?"  Part="1" 
-AR Path="/5C9128F0/5C994AC5" Ref="#PWR043"  Part="1" 
-F 0 "#PWR043" H 4600 2550 50  0001 C CNN
-F 1 "GND" H 4605 2627 50  0000 C CNN
-F 2 "" H 4600 2800 50  0001 C CNN
-F 3 "" H 4600 2800 50  0001 C CNN
-	1    4600 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5050 2750 5100 2750
-$Comp
 L Device:R_Small R25
 U 1 1 5C99602E
 P 5100 2550
@@ -363,7 +331,6 @@ F 3 "~" H 5100 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5100 2650 5100 2750
-Connection ~ 5100 2750
 Wire Wire Line
 	5100 2750 5450 2750
 Wire Wire Line
