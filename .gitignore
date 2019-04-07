@@ -1,43 +1,27 @@
-# Ignore list for Eagle, a PCB layout tool
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
 
-# Backup files
-*.s#?
-*.b#?
-*.l#?
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*~
+_autosave-*
+*.tmp
+*-rescue.lib
+*-save.pro
+*-save.kicad_pcb
 
-# Eagle project file
-# It contains a serial number and references to the file structure
-# on your computer.
-# comment the following line if you want to have your project file included.
-eagle.epf
+# Netlist files (exported from Eeschema)
+*.net
 
-# Autorouter files
-*.pro
-*.job
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
 
-# CAM files
-*.$$$
-*.cmp
-*.ly2
-*.l15
-*.sol
-*.plc
-*.stc
-*.sts
-*.crc
-*.crs
+# Exported BOM files
+*.xml
+*.csv
 
-*.dri
-*.drl
-*.gpi
-*.pls
-
-*.drd
-*.drd.*
-
-*.info
-
-*.eps
-
-# file locks introduced since 7.x
-*.lck
+fp-info-cache
