@@ -132,14 +132,6 @@ F 3 "~" H 2400 2550 50  0001 C CNN
 	1    2400 2550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4250 3150 4350 3150
-Wire Wire Line
-	4350 3250 4250 3250
-Wire Wire Line
-	4350 3350 4250 3350
-Wire Wire Line
-	4350 3450 4250 3450
 $Comp
 L Device:LED_Small D5
 U 1 1 5C2825A8
@@ -584,14 +576,6 @@ Wire Wire Line
 Connection ~ 1950 2950
 Wire Wire Line
 	1950 2950 1950 3000
-Wire Wire Line
-	4350 3850 4250 3850
-Wire Wire Line
-	4250 3750 4350 3750
-Wire Wire Line
-	4350 3650 4250 3650
-Wire Wire Line
-	4250 3550 4350 3550
 Text HLabel 4300 4250 2    50   Input ~ 0
 RX1
 Text HLabel 4300 4350 2    50   Output ~ 0
@@ -721,4 +705,13 @@ Wire Wire Line
 	2650 2850 2550 2850
 Wire Wire Line
 	2550 2950 2650 2950
+NoConn ~ 4250 3150
+NoConn ~ 4250 3250
+NoConn ~ 4250 3350
+NoConn ~ 4250 3450
+NoConn ~ 4250 3550
+NoConn ~ 4250 3650
+NoConn ~ 4250 3750
+NoConn ~ 4250 3850
+NoConn ~ 4250 5550
 $EndSCHEMATC

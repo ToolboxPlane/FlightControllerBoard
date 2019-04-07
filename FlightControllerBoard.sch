@@ -491,8 +491,6 @@ Text Label 5100 2650 0    50   ~ 0
 PWM7
 Text Label 5100 2750 0    50   ~ 0
 PWM8
-Text Label 5100 2850 0    50   ~ 0
-PWM9
 Text Label 1700 3700 2    50   ~ 0
 PWM1
 Text Label 1700 4150 2    50   ~ 0
@@ -814,4 +812,5 @@ F 3 "~" H 8500 4250 50  0001 C CNN
 	1    8500 4250
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5100 2850
 $EndSCHEMATC
