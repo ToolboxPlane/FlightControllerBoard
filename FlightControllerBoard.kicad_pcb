@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.0-060a0da~80~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.1)
 
   (general
     (thickness 1.6)
@@ -2869,7 +2869,7 @@
     (fp_text reference R22 (at 0 -1.43 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 270 (at 0 1.43 180) (layer F.Fab)
+    (fp_text value 100 (at 0 1.43 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -2905,7 +2905,7 @@
     (fp_text reference R21 (at 0 -1.43 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 270 (at 0 1.43 180) (layer F.Fab)
+    (fp_text value 100 (at 0 1.43 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -2941,7 +2941,7 @@
     (fp_text reference R20 (at 0 -1.43 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 270 (at 0 1.43 180) (layer F.Fab)
+    (fp_text value 100 (at 0 1.43 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -2977,7 +2977,7 @@
     (fp_text reference R19 (at 0 -1.43 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 270 (at 0 1.43 180) (layer F.Fab)
+    (fp_text value 100 (at 0 1.43 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -3013,7 +3013,7 @@
     (fp_text reference R18 (at 0 -1.43 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 270 (at 0 1.43 180) (layer F.Fab)
+    (fp_text value 100 (at 0 1.43 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -3049,7 +3049,7 @@
     (fp_text reference R17 (at 0 -1.43 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 270 (at 0 1.43 180) (layer F.Fab)
+    (fp_text value 100 (at 0 1.43 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -3085,7 +3085,7 @@
     (fp_text reference R16 (at 0 -1.43 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 270 (at 0 1.43 180) (layer F.Fab)
+    (fp_text value 100 (at 0 1.43 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -3121,7 +3121,7 @@
     (fp_text reference R15 (at 0 -1.43 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 270 (at 0 1.43 180) (layer F.Fab)
+    (fp_text value 100 (at 0 1.43 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
